@@ -1,6 +1,13 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "localNotification",
-	"webDir": "www",
-	"bundledWebRuntime": false
+  "appId": "io.ionic.starter",
+  "appName": "localNotification",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_ionic_logo",
+      "iconColor": "#488AFF",
+      "sound": "doorbell.wav"
+    }
+  }
 }
